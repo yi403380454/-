@@ -1,15 +1,31 @@
+!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"><meta name="description" content="《萌宠呈祥》高度还原了经典的掌机玩法，且新增了自动寻路、离线收益的挂机元还采用当前主流的深度养成玩法，让玩家打造自己的DIY精灵军团。游戏收集超过300多种精灵，且能实现进化，再进化，超进化，真实还原动漫感受，同时还收录了部分出现的超级神兽，真实还原掌机体验。竞技、地底、核心副本玩法层层深入，任务、活动、PK、BOSS，好友、和公会等交互性玩法引人入胜。二十年经典巨制，《萌宠呈祥》等你来体验。">
-    <meta name="keywords" content="《萌宠呈祥》手游官网,成为小精灵训练大师吧">
-    <link rel="Shortcut Icon" href="https://s3.bmp.ovh/imgs/2022/08/12/decf34843c3d9863.jpg">
-    <title>《萌宠呈祥》官网，成为小精灵训练大师吧</title>
-    <!--公共css-->
-    <link rel="stylesheet" type="text/css" href="//css.pookcdn.net/new_net/lydr3d/newpc/common.css">
-    <link rel="stylesheet" href="//css.pookcdn.net/new_net/swiper-bundle.min.8.0.css">
-    <link rel="stylesheet" type="text/css" href="//css.pookcdn.net/new_net/lydr3d/newpc/pc.index.1.1.css">
+    <meta charset="utf-8">
+    <title>萌宠呈祥</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <script src="https://static.ahfanjin.com/resource/new/js/flexible.js">
+    </script>
 </head>
-
+<body style="font: size 12px;">
+    <link rel="stylesheet" type="text/css" href="">
+    <div class="header">
+        <div class="fix-bg">
+            <div class="header-fixed">
+                <div class="header-before">
+                    <h1 class="pagelog">
+                        <span class="search-btn"></span>
+                </div>
+                <div class="header-after">
+                    <span class="colseFixed"></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" type="text/css" href="">
+    <style type="text/css">
 <body>
     <div class="bg-video show">
         <video id="bg-video" muted="" loop="" playsinline="" poster="https://s3.bmp.ovh/imgs/2022/08/12/decf34843c3d9863.jpg"></video>

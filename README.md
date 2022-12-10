@@ -1,7 +1,16 @@
-<html lang="zh">
+<<html lang="zh">
 <head>
     <meta charset="utf-8">
+    <meta content="max-age=0" http-equiv="Cache-Control">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="0" http-equiv="Expires">
     <meta name="description" content="《萌宠呈祥》高度还原了经典的掌机玩法，且新增了自动寻路、离线收益的挂机元还采用当前主流的深度养成玩法，让玩家打造自己的DIY精灵军团。游戏收集超过300多种精灵，且能实现进化，再进化，超进化，真实还原动漫感受，同时还收录了部分出现的超级神兽，真实还原掌机体验。竞技、地底、核心副本玩法层层深入，任务、活动、PK、BOSS，好友、和公会等交互性玩法引人入胜。二十年经典巨制，《萌宠呈祥》等你来体验。">
+    <meta name="keywords" content="《萌宠呈祥》手游官网,成为小精灵训练大师吧">
+    <meta name="applicable-device" content="pc">
+    <link rel="Shortcut Icon" href="https://s3.bmp.ovh/imgs/2022/08/12/decf34843c3d9863.jpg">
+    <title>《萌宠呈祥》官网，成为小精灵训练大师吧</title>
+    <!--公共css-->
     <link rel="stylesheet" type="text/css" href="//css.pookcdn.net/new_net/lydr3d/newpc/common.css">
     <link rel="stylesheet" href="//css.pookcdn.net/new_net/swiper-bundle.min.8.0.css">
     <link rel="stylesheet" type="text/css" href="//css.pookcdn.net/new_net/lydr3d/newpc/pc.index.1.1.css">
@@ -96,6 +105,79 @@
                     </div>
                 </div>
             </div>
+    <!--公共js-->
+    <script src="https://hm.baidu.com/hm.js?ce96099eaf4377e4fdfd5270d06d8a2b"></script>
+    <script src="//js.pookcdn.net/common/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="//js.pookcdn.net/mobile/webkit1.3.js"></script>
+    <script src="//js.pookcdn.net/new_net/lydr3d/newpc/lydr3d.common.1.0.js"></script>
+    <script src="//js.pookcdn.net/new_net/lydr3d/newpc/lydr3d.pc-1.0.js"></script>
+    <script>
+        if (Webkit.isMobile()) {
+            var url = window.location.href;
+            if (url.indexOf('www.lydr3d.com/pc') == -1 && url.indexOf('www.boke.com/pc/') == -1) {
+                LydrCommon.gotoMobileIndex();
+            }
+        }
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?ce96099eaf4377e4fdfd5270d06d8a2b";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script type="text/javascript" src="//js.pookcdn.net/new_net/swiper-bundle.min.8.0.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            var vs = document.getElementById("video-start");
+            var kittyTheme = document.getElementById('bg-video');
+            vs.play()
+            vs.addEventListener("timeupdate", function (event) {
+                var nowUrl = $("#video-start").attr("src");
+                if (nowUrl.indexOf("video_start") != -1 && this.currentTime > 2) {
+                    $(".video-start").removeClass("show");
+                    kittyTheme.play();
+                    $(".bg-video").addClass("show");
+                };
+            })
+
+        }
+
+        var swiper = new Swiper(".swiper-news", {
+            effect: 'fade',
+            pagination: {
+                el: ".swiper-pagination-news",
+            },
+        });
+        $("#indexTab li").click(function () {
+            $("#indexTab li").removeClass("active");
+            $(this).addClass("active");
+            $("#postList .culumn-list").removeClass("active");
+            $("#postList .culumn-list").eq($(this).index()).addClass("active");
+        });
+        certifySwiper = new Swiper('.slide', {
+            effect: "coverflow",
+            watchSlidesProgress: true,
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            loop: true,
+            navigation: {
+                nextEl: ".right-arrow",
+                prevEl: ".left-arrow",
+            },
+            pagination: {
+                el: ".swiper-pagination-feature",
+                clickable: true,
+            },
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 400,
+                depth: 360,
+                modifier: 1,
+                slideShadows: true,
+            }
+        });
+    </script>
 
 
 </body>

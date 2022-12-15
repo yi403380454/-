@@ -1,14 +1,10 @@
 <head>
     <meta charset="utf-8">
-    <meta content="max-age=0" http-equiv="Cache-Control">
-    <meta name="renderer" content="webkit|ie-comp|ie-stand">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta content="0" http-equiv="Expires">
+     <title>《萌宠呈祥》官网，成为小精灵训练大师吧</title>
     <meta name="description" content="《萌宠呈祥》高度还原了经典的掌机玩法，且新增了自动寻路、离线收益的挂机元还采用当前主流的深度养成玩法，让玩家打造自己的DIY精灵军团。游戏收集超过300多种精灵，且能实现进化，再进化，超进化，真实还原动漫感受，同时还收录了部分出现的超级神兽，真实还原掌机体验。竞技、地底、核心副本玩法层层深入，任务、活动、PK、BOSS，好友、和公会等交互性玩法引人入胜。二十年经典巨制，《萌宠呈祥》等你来体验。">
     <meta name="keywords" content="《萌宠呈祥》手游官网,成为小精灵训练大师吧">
     <meta name="applicable-device" content="pc">
     <link rel="Shortcut Icon" href="">
-    <title>《萌宠呈祥》官网，成为小精灵训练大师吧</title>
     <!--公共css-->
     <link rel="stylesheet" type="text/css" href="//css.pookcdn.net/new_net/lydr3d/newpc/common.css">
     <link rel="stylesheet" href="//css.pookcdn.net/new_net/swiper-bundle.min.8.0.css">

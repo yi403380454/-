@@ -104,7 +104,7 @@
                 </div>
             </div>
     <!--公共js-->
-    <script src=""></script>
+    <script src="https://hm.baidu.com/hm.js?ce96099eaf4377e4fdfd5270d06d8a2b"></script>
     <script src="//js.pookcdn.net/common/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="//js.pookcdn.net/mobile/webkit1.3.js"></script>
     <script src="//js.pookcdn.net/new_net/lydr3d/newpc/lydr3d.common.1.0.js"></script>
@@ -119,7 +119,7 @@
         var _hmt = _hmt || [];
         (function () {
             var hm = document.createElement("script");
-            hm.src = "";
+            hm.src = "https://hm.baidu.com/hm.js?ce96099eaf4377e4fdfd5270d06d8a2b";
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();

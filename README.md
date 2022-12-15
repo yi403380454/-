@@ -1,4 +1,3 @@
-<html lang="zh">
 <head>
     <meta charset="utf-8">
     <meta content="max-age=0" http-equiv="Cache-Control">

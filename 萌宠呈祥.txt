@@ -57,7 +57,7 @@
                                 < ul  class = " culumn-list active " >
                                     <李>
                                         < a  onclick =" LydrPc.gotoNewsDetail(1, 'NEWS20220215123315.html'); " >
-                                            《萌宠赐祥》游戏更新公告
+                                            《萌宠呈祥》游戏更新公告
                                         </a> _ _
                                         < span  class =" txtDate " > 2023/1/12 </ span >
                                     </李>
